@@ -1,0 +1,514 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif; }
+  body footer {
+    background: #1ea78d;
+    color: #fff;
+    overflow: hidden; }
+
+.header-top {
+  background: rgba(207, 208, 215, 0.104);
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  z-index: 999; }
+  .header-top h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    margin: 15px 0 15px; }
+  .header-top p {
+    margin-top: 15px;
+    color: #cfd0d7; }
+  .header-top .nav {
+    float: right; }
+    .header-top .nav li {
+      display: inline-block; }
+      .header-top .nav li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 11px;
+        padding: 18px 20px; }
+        .header-top .nav li a:hover {
+          background: none;
+          border-top: 2px solid #32b0ee;
+          padding: 16px 20px 19px; }
+    .header-top .nav .active a {
+      border-top: 2px solid #32b0ee;
+      padding: 16px 20px 19px; }
+
+.slider {
+  overflow: hidden; }
+  .slider .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -99999; }
+
+.text {
+  text-align: center;
+  margin-top: 350px;
+  color: #fff; }
+  .text h2 {
+    font-size: 50px; }
+  .text h6 {
+    font-size: 40px; }
+  .text p {
+    font-size: 20px; }
+  .text span {
+    color: #0fde96; }
+
+.contact {
+  margin: 100px auto 64px;
+  text-align: center;
+  overflow: hidden;
+  width: 171px; }
+  .contact img {
+    float: left;
+    margin-right: 20px; }
+  .contact .last {
+    margin: 0; }
+
+.bx-wrapper .bx-pager {
+  position: absolute !important;
+  right: 0;
+  width: 50px !important;
+  bottom: 300px !important; }
+
+.bx-wrapper .bx-pager-item {
+  width: 100% !important; }
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #777 !important; }
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #fff !important; }
+
+.bx-wrapper {
+  margin-bottom: 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.features {
+  background: #f4f7f9; }
+  .features h2 {
+    color: #0eb493;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px 0; }
+  .features p {
+    text-align: center;
+    position: relative; }
+    .features p::before {
+      content: "";
+      position: absolute;
+      background: #dce1e5;
+      width: 90px;
+      height: 1px;
+      left: 566px;
+      top: 13px; }
+    .features p::after {
+      content: '';
+      position: absolute;
+      background: #dce1e5;
+      width: 90px;
+      height: 1px;
+      right: 566px;
+      top: 13px; }
+
+.text1 {
+  overflow: hidden;
+  max-width: 905px;
+  margin: 50px auto 100px; }
+  .text1 .one {
+    float: left;
+    overflow: hidden;
+    max-width: 325px; }
+    .text1 .one .left {
+      float: left; }
+      .text1 .one .left img {
+        margin: 20px;
+        max-width: 30px; }
+    .text1 .one .right {
+      float: left; }
+      .text1 .one .right h3 {
+        font-size: 15px; }
+      .text1 .one .right p {
+        text-align: start;
+        font-size: 10px; }
+
+.works {
+  overflow: hidden; }
+  .works .text2 {
+    text-align: center; }
+    .works .text2 h2 {
+      color: #0eb493;
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      padding: 30px 0; }
+    .works .text2 p {
+      text-align: center;
+      position: relative; }
+      .works .text2 p::before {
+        content: "";
+        position: absolute;
+        background: #dce1e5;
+        width: 90px;
+        height: 1px;
+        left: 566px;
+        top: 13px; }
+      .works .text2 p::after {
+        content: '';
+        position: absolute;
+        background: #dce1e5;
+        width: 90px;
+        height: 1px;
+        right: 566px;
+        top: 13px; }
+    .works .text2 h6 {
+      font-weight: bold;
+      font-size: 15px;
+      margin: 20px auto; }
+  .works ul {
+    max-width: 480px;
+    margin: 50px auto; }
+  .works .tab-content {
+    width: 1347px;
+    margin: 0 auto; }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: #0eb493 !important;
+  color: #fff !important; }
+
+.works .nav > li > a {
+  padding: 5px 20px !important;
+  color: #000;
+  font-weight: bold; }
+
+.pict {
+  position: relative;
+  float: left; }
+  .pict:hover .hind {
+    height: 253px; }
+  .pict .vv {
+    width: 336.7px; }
+
+.hind {
+  background: rgba(33, 181, 151, 0.919);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  transition: .5s ease;
+  height: 0; }
+  .hind img {
+    margin-top: 78px; }
+  .hind p {
+    color: #fff;
+    margin: 20px 46px 67px; }
+    .hind p strong {
+      font-weight: bold;
+      font-size: 20px; }
+
+.team {
+  margin-top: 50px; }
+  .team .text2 {
+    text-align: center; }
+    .team .text2 h2 {
+      color: #0eb493;
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      padding: 30px 0; }
+    .team .text2 p {
+      text-align: center;
+      position: relative; }
+      .team .text2 p::before {
+        content: "";
+        position: absolute;
+        background: #dce1e5;
+        width: 90px;
+        height: 1px;
+        left: 566px;
+        top: 13px; }
+      .team .text2 p::after {
+        content: '';
+        position: absolute;
+        background: #dce1e5;
+        width: 90px;
+        height: 1px;
+        right: 566px;
+        top: 13px; }
+    .team .text2 h6 {
+      font-weight: bold;
+      font-size: 15px;
+      margin: 20px auto; }
+
+.pi {
+  max-width: 1040px;
+  margin: 100px auto 0px; }
+  .pi .tw {
+    text-align: center; }
+    .pi .tw .pict1 {
+      margin-left: 10px;
+      position: relative;
+      float: left; }
+      .pi .tw .pict1 a {
+        text-decoration: none; }
+      .pi .tw .pict1:hover .hind1 {
+        height: 280px; }
+      .pi .tw .pict1:hover h4 {
+        color: #21b497ea; }
+      .pi .tw .pict1 .vv {
+        width: 250px; }
+      .pi .tw .pict1 h4 {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px; }
+    .pi .tw .hind1 {
+      background: #21b497ea;
+      text-align: center;
+      position: absolute;
+      bottom: 82px;
+      transition: .5s ease;
+      height: 0; }
+      .pi .tw .hind1 p {
+        color: #fff;
+        margin: 43px 27px; }
+        .pi .tw .hind1 p strong {
+          font-weight: bold;
+          font-size: 15px; }
+      .pi .tw .hind1 .po {
+        width: 153px;
+        margin: 0 auto; }
+        .pi .tw .hind1 .po img {
+          max-width: 30px !important;
+          margin: 0 10px  !important;
+          float: left; }
+
+.facts {
+  margin-top: 100px;
+  background: url(../images/bg3.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden; }
+  .facts .text2 {
+    text-align: center; }
+    .facts .text2 h2 {
+      color: #0eb493;
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      padding: 30px 0; }
+    .facts .text2 p {
+      text-align: center;
+      position: relative; }
+      .facts .text2 p::before {
+        content: "";
+        position: absolute;
+        background: #dce1e5;
+        width: 90px;
+        height: 1px;
+        left: 566px;
+        top: 13px; }
+      .facts .text2 p::after {
+        content: '';
+        position: absolute;
+        background: #dce1e5;
+        width: 90px;
+        height: 1px;
+        right: 566px;
+        top: 13px; }
+  .facts .ffact {
+    width: 909px;
+    margin: 0 auto 100px;
+    overflow: hidden; }
+    .facts .ffact .one1 {
+      float: left;
+      color: #fff;
+      text-align: center;
+      margin-right: 150px; }
+      .facts .ffact .one1 .bdi {
+        border-radius: 500px;
+        border: 1px solid #fff;
+        margin: 50px auto; }
+        .facts .ffact .one1 .bdi img {
+          margin: 40px;
+          width: 30px; }
+      .facts .ffact .one1 h3 {
+        font-size: 50px;
+        margin: 0; }
+      .facts .ffact .one1 p {
+        font-size: 11px; }
+    .facts .ffact #last {
+      margin: 0; }
+
+.discuss .text2 {
+  text-align: center; }
+  .discuss .text2 h2 {
+    color: #0eb493;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 30px 0; }
+  .discuss .text2 p {
+    text-align: center;
+    position: relative; }
+    .discuss .text2 p::before {
+      content: "";
+      position: absolute;
+      background: #dce1e5;
+      width: 90px;
+      height: 1px;
+      left: 566px;
+      top: 13px; }
+    .discuss .text2 p::after {
+      content: '';
+      position: absolute;
+      background: #dce1e5;
+      width: 90px;
+      height: 1px;
+      right: 566px;
+      top: 13px; }
+  .discuss .text2 h6 {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px auto; }
+.discuss .ddsc {
+  width: 1000px;
+  margin: 50px auto 0;
+  overflow: hidden; }
+  .discuss .ddsc .left {
+    float: left;
+    margin-right: 50px; }
+    .discuss .ddsc .left h6 {
+      font-size: 17px;
+      font-weight: bold; }
+    .discuss .ddsc .left p {
+      font-size: 10px; }
+  .discuss .ddsc .center {
+    float: left; }
+    .discuss .ddsc .center h3 {
+      margin: 0px 0px 30px;
+      font-weight: bold; }
+    .discuss .ddsc .center form {
+      overflow: hidden; }
+      .discuss .ddsc .center form input {
+        width: 334px;
+        margin-right: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        border-top: none !important;
+        border-left: none !important;
+        border-bottom: 1px solid #707070 !important;
+        border-right: none !important; }
+      .discuss .ddsc .center form .ms {
+        width: 691px;
+        padding-bottom: 15px;
+        margin-bottom: 30px; }
+      .discuss .ddsc .center form .bt {
+        float: right;
+        margin-right: 0;
+        padding: 0;
+        font-weight: bold;
+        width: 159px;
+        border-bottom: none !important;
+        background: url(../images/ms.png) no-repeat; }
+  .discuss .ddsc .right {
+    float: right;
+    width: 48px; }
+    .discuss .ddsc .right img {
+      margin: 8px 0; }
+
+.location {
+  margin-top: 50px;
+  position: relative; }
+  .location img {
+    width: 100%; }
+  .location .here {
+    border-bottom: 5px solid #000;
+    max-width: 100%; }
+  .location .pin {
+    position: absolute;
+    top: 100px;
+    left: 400px; }
+
+.ftcenter {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .ftcenter .one {
+    float: left;
+    margin: 100px 50px 100px 0; }
+    .ftcenter .one h4 {
+      font-size: 25px;
+      margin-bottom: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Pacifico', cursive; }
+    .ftcenter .one p {
+      font-size: 12px; }
+  .ftcenter .two {
+    float: left;
+    margin: 100px 50px 100px 0; }
+    .ftcenter .two h6 {
+      margin-bottom: 20px;
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 15px; }
+    .ftcenter .two form {
+      margin-bottom: 10px; }
+      .ftcenter .two form input {
+        background: none;
+        border: 1px solid;
+        padding: 10px 0;
+        width: 245px;
+        border-radius: 5px;
+        background: url(../images/arr.png) no-repeat;
+        background-position-x: 210px;
+        background-position-y: 15px; }
+    .ftcenter .two p {
+      font-size: 12px; }
+  .ftcenter .three {
+    float: left;
+    margin: 100px 50px 100px 0; }
+    .ftcenter .three h6 {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 15px; }
+    .ftcenter .three .ho {
+      overflow: hidden;
+      font-size: 12px; }
+      .ftcenter .three .ho a {
+        color: #fff; }
+      .ftcenter .three .ho .le {
+        float: left;
+        width: 100px;
+        margin-right: 50px; }
+      .ftcenter .three .ho .ri {
+        float: left;
+        max-width: 100px; }
+  .ftcenter .four {
+    float: left;
+    margin: 180px 0 0;
+    font-size: 12px; }
+    .ftcenter .four p {
+      color: #fff;
+      border-left: 1px solid #000;
+      padding-left: 20px;
+      margin-bottom: 16px; }
+      .ftcenter .four p strong {
+        color: #000; }
+    .ftcenter .four h6 {
+      color: #000;
+      font-weight: bold; }
+
+/*# sourceMappingURL=styles.css.map */

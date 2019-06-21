@@ -1,0 +1,110 @@
+/* vietnamese */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(../fonts/DK0eTGXiZjN6yA8zAEyM2fRMc6C39aem-aUPzsV2c2w.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(../fonts/DK0eTGXiZjN6yA8zAEyM2e87R-l0-Xx_7cYc0ZX1ifE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(../fonts/DK0eTGXiZjN6yA8zAEyM2Ud0sm1ffa_JvZxsF_BEwQk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    width: 70%;
+    margin: 0 auto;
+    header{
+        overflow: hidden;
+    }
+    section{
+        overflow: hidden;
+    }
+    footer{
+    }
+}
+
+.row{
+    margin: 0;
+}
+
+.header-top{
+    background: rgb(210, 253, 210);
+}
+
+.admin{
+    text-align: center;
+    h1{
+        margin: 15px 0;
+        a{
+            img{
+                width: 100px;
+            }
+        }
+    }
+}
+
+.nav{
+    background: rgb(255, 179, 179);
+    height: 200px;
+    h2{
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+.content{
+    width: 70%;
+    background: rgb(165, 255, 203);
+    float: left;
+    height: 1100px;
+    .one{
+        height: 150px;
+        background: rgb(250, 255, 152);
+    }
+    .two{
+        height: 300px;
+        background: rgb(171, 152, 255);
+    }
+    .three{
+        height: 300px;
+        background: rgb(255, 152, 200);
+    }
+}
+
+.sidebar{
+    width: 30%;
+    background: rgb(255, 247, 136);
+    float: left;
+    height: 1100px;
+    .one{
+        height: 290px;
+        background: rgb(152, 214, 255);
+    }
+    .two{
+        height: 330px;
+        background: rgb(250, 155, 255);
+    }
+    .three{
+        height: 330px;
+        background: rgb(255, 188, 152);
+    }
+}
+
+.footer-bottom{
+    background: rgb(221, 221, 221);
+    height: 200px;
+}

@@ -1,0 +1,85 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Dancing Script Regular"), local("DancingScript-Regular"), url(../fonts/DK0eTGXiZjN6yA8zAEyM2fRMc6C39aem-aUPzsV2c2w.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB; }
+/* latin-ext */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Dancing Script Regular"), local("DancingScript-Regular"), url(../fonts/DK0eTGXiZjN6yA8zAEyM2e87R-l0-Xx_7cYc0ZX1ifE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Dancing Script Regular"), local("DancingScript-Regular"), url(../fonts/DK0eTGXiZjN6yA8zAEyM2Ud0sm1ffa_JvZxsF_BEwQk.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+body {
+  font-family: 'Dancing Script', cursive;
+  width: 70%;
+  margin: 0 auto; }
+  body header {
+    overflow: hidden; }
+  body section {
+    overflow: hidden; }
+
+.row {
+  margin: 0; }
+
+.header-top {
+  background: #d2fdd2; }
+
+.admin {
+  text-align: center; }
+  .admin h1 {
+    margin: 15px 0; }
+    .admin h1 a img {
+      width: 100px; }
+
+.nav {
+  background: #ffb3b3;
+  height: 200px; }
+  .nav h2 {
+    font-size: 50px;
+    text-align: center; }
+
+.content {
+  width: 70%;
+  background: #a5ffcb;
+  float: left;
+  height: 1100px; }
+  .content .one {
+    height: 150px;
+    background: #faff98; }
+  .content .two {
+    height: 300px;
+    background: #ab98ff; }
+  .content .three {
+    height: 300px;
+    background: #ff98c8; }
+
+.sidebar {
+  width: 30%;
+  background: #fff788;
+  float: left;
+  height: 1100px; }
+  .sidebar .one {
+    height: 290px;
+    background: #98d6ff; }
+  .sidebar .two {
+    height: 330px;
+    background: #fa9bff; }
+  .sidebar .three {
+    height: 330px;
+    background: #ffbc98; }
+
+.footer-bottom {
+  background: #dddddd;
+  height: 200px; }
+
+/*# sourceMappingURL=styles.css.map */
